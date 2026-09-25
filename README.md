@@ -6,6 +6,15 @@ EPOC-0004 captures an interviewer question, recommends the most relevant respons
 
 > Production: [EPOC-0004 Interview Studio](https://epoc-0004-interview-studio.g-gomez734222.chatgpt.site)
 
+## Expansion modules — 25 September 2026
+
+The following additions are versioned as **implementation-ready design contracts**, not as deployed Interview Studio features:
+
+- [Role-Based AI / Architecture KATAs](docs/role-based-ai-katas.md) — RAI-K14–RAI-K40, including verified live LTM questions, clearly labelled publicly reported interview themes, JD-derived exercises, role routing, and short-answer mode. The original K0–K13 catalog retains its KPMG provenance.
+- [Architecture Sizing Lab](docs/architecture-sizing-lab.md) — SIZE-K01–SIZE-K14; discovery input classification, CPU/RAM/VRAM, RPM/TPM, HPA, node/GPU capacity, RAG indexing, observability, P95/P99, and TCO.
+
+**Implementation status:** This repository currently contains the README and these two documentation files, but not the application source files described below. The published Interview Studio has not been modified by these documentation commits. UI integration, router updates, persistence, and automated tests must be performed in the actual application codebase and verified before marking the modules deployed.
+
 ## 1. Purpose
 
 The application supports four synchronized capabilities:
