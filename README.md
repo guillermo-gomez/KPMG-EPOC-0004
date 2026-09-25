@@ -12,6 +12,7 @@ The following additions are versioned as **implementation-ready design contracts
 
 - [Role-Based AI / Architecture KATAs](docs/role-based-ai-katas.md) — RAI-K14–RAI-K40, including verified live LTM questions, clearly labelled publicly reported interview themes, JD-derived exercises, role routing, and short-answer mode. The original K0–K13 catalog retains its KPMG provenance.
 - [Architecture Sizing Lab](docs/architecture-sizing-lab.md) — SIZE-K01–SIZE-K14; discovery input classification, CPU/RAM/VRAM, RPM/TPM, HPA, node/GPU capacity, RAG indexing, observability, P95/P99, and TCO.
+- [ASKEF-Lite + Dual Practice Modes](docs/askef-dual-mode-integration.md) — preserve Audio → STT → Router → KATA → Practice → Evaluation; add interview and architecture-sizing mode selector, source provenance, and ASKEF metadata.
 
 **Implementation status:** This repository currently contains the README and these two documentation files, but not the application source files described below. The published Interview Studio has not been modified by these documentation commits. UI integration, router updates, persistence, and automated tests must be performed in the actual application codebase and verified before marking the modules deployed.
 
